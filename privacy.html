@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy — Codex Mac Backup</title>
+<style>body{max-width:760px;margin:64px auto;padding:0 24px;font:17px/1.8 system-ui;color:#202124}a{color:#1769aa}h2{margin-top:32px}</style>
+<h1>Codex Mac Backup 隐私政策</h1>
+<p>更新日期 / Updated: 2026-10-14</p>
+<p>本工具供拥有者个人使用，在自己的 Mac 与自己授权的 Google Drive 之间保存备份。本说明网站不收集备份内容，也不提供登录功能。</p>
+<h2>数据与权限</h2>
+<p>Google Drive 授权用于读取备份目录的文件元数据、校验值及摘要，并删除超过保留数量的旧快照。Google 的 Drive 授权范围覆盖整个账号；本机脚本通过机器目录标记和固定根目录限制实际操作。</p>
+<p>备份内容可能包括用户选定的本地配置、项目文件和会话历史。数据保存在用户本机与其 Google Drive 中。此工具没有运营者服务器，不出售数据，不用于广告，也不将备份内容发送给其他服务或用于训练通用 AI 模型。</p>
+<h2>凭据、保留与控制</h2>
+<p>OAuth 凭据保存在本机私有配置目录，不纳入本工具的云端配置备份或技能 Git 仓库。云端核验通过后，轮换脚本通常保留当前机器最近两份完整快照；上传或核验失败时保留旧恢复点。</p>
+<p>用户可在 Google 账号的第三方连接页面撤销授权，删除本机凭据并停止后台任务。现有备份可由用户在 Google Drive 中管理和删除。</p>
+<h2>English</h2>
+<p>This personal-use tool stores selected local configuration, project files and session history on the owner's Mac and authorized Google Drive. Drive access is used to read backup metadata, checksums and summaries, and to delete older snapshots under the configured retention policy. The Google permission covers the account; the local script limits its operations to the configured machine folder.</p>
+<p>The tool has no operator-hosted server. It does not sell backup data, use it for advertising, send backup contents to other services, or use them to train generalized AI models. OAuth credentials remain in a private local directory and are excluded from this tool's cloud configuration backups and skill Git repository.</p>
+<p>After cloud verification, rotation normally retains the two latest complete snapshots for the current machine. Upload or verification failures preserve previous recovery points. The owner may revoke access in their Google Account, stop the background tasks, remove local credentials, and manage or delete stored backups in Google Drive.</p>
+<p>Use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. Google Drive and website hosting remain subject to their providers' own privacy policies.</p>
+<p>Questions / 联系：通过托管此站点的 GitHub 仓库联系维护者；请勿在公开反馈中提交备份或凭据。Do not include backups or credentials in public feedback.</p>
+<p><a href="index.html">返回 / Home</a></p>
+</html>
